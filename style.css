@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Old London";
+  src: url("/fonts/OldLondon.ttf");
+}
+
+.title {
+  font-family: "Old London";
+}
+/*# sourceMappingURL=style.css.map */
