@@ -1,9 +1,83 @@
 @font-face {
     font-family: "Old London";
     src: local("Old London"), url("fonts/OldLondon.ttf") format("truetype");
-    //url("file://fonts/OldLondon.ttf");
 }
 
-.title {
-    font-family: "Old London";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.high-head {
+    padding-top: 20px;
+    display: grid;
+    width: 99vw;
+    height: auto;
+
+    margin: auto;
+
+    grid-template-columns: repeat(3, 33vw);
+
+    .logo {
+        grid-column: 2/3;
+        grid-row: 1;
+
+        text-align: center;
+
+        text-decoration: none;
+        color: black;
+        font-family: "Old London";
+        font-size: 5em;
+
+        text-shadow: 2px 2px rgb(179, 179, 179);
+    }
+
+    .button-div {
+        grid-column: 3/3;
+        grid-row: 1;
+
+        display: grid;
+        width: 99%;
+        height: 100%;
+
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(2, 50%);
+
+        .button{
+            text-decoration: none;
+            font-weight: 600;
+
+            text-align: center;
+            margin: auto;
+
+            font-family: "Roboto";
+            font-size: 1em;
+            
+            color: black;
+        }
+
+        .log-in {
+            grid-column: 2/3;
+            grid-row: 2/2;
+        }
+
+        .subscribe {
+            background-color: gold;
+            border-radius: 5px;
+            padding: 10px 20px;
+
+            grid-column: 3/3;
+            grid-row: 2/2;
+        }
+    }
+}
+
+.strip {
+    background-color: #026b9c;
+    width: 100vw;
+    height: 5px;
+
+    margin-top: 35px;
 }

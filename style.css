@@ -1,9 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 @font-face {
   font-family: "Old London";
   src: local("Old London"), url("fonts/OldLondon.ttf") format("truetype");
 }
 
-.title {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.high-head {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  width: 99vw;
+  height: auto;
+  margin: auto;
+  -ms-grid-columns: (33vw)[3];
+      grid-template-columns: repeat(3, 33vw);
+}
+
+.high-head .logo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  text-align: center;
+  text-decoration: none;
+  color: black;
   font-family: "Old London";
+  font-size: 5em;
+  text-shadow: 2px 2px #b3b3b3;
+}
+
+.high-head .button-div {
+  -ms-grid-column: 3;
+  grid-column: 3/3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  display: -ms-grid;
+  display: grid;
+  width: 99%;
+  height: 100%;
+  -ms-grid-columns: (33%)[3];
+      grid-template-columns: repeat(3, 33%);
+  -ms-grid-rows: (50%)[2];
+      grid-template-rows: repeat(2, 50%);
+}
+
+.high-head .button-div .button {
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto";
+  font-size: 1em;
+  color: black;
+}
+
+.high-head .button-div .log-in {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.high-head .button-div .subscribe {
+  background-color: gold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  -ms-grid-column: 3;
+  grid-column: 3/3;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.strip {
+  background-color: #026b9c;
+  width: 100vw;
+  height: 5px;
+  margin-top: 35px;
 }
 /*# sourceMappingURL=style.css.map */
