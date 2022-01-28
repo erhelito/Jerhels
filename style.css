@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @font-face {
   font-family: "Old London";
   src: local("Old London"), url("fonts/OldLondon.ttf") format("truetype");
@@ -21,6 +22,7 @@ body {
 }
 
 .high-head .logo {
+  margin-top: 10px;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -67,20 +69,73 @@ body {
   grid-row: 2/2;
 }
 
+.high-head .button-div .log-in:hover {
+  text-decoration: underline;
+}
+
 .high-head .button-div .subscribe {
-  background-color: gold;
+  background-color: #ffc700;
   border-radius: 5px;
   padding: 10px 20px;
   -ms-grid-column: 3;
   grid-column: 3/3;
   -ms-grid-row: 2;
   grid-row: 2/2;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
 }
 
-.strip {
+.high-head .button-div .subscribe:hover {
+  background-color: #e9b600;
+}
+
+.strip1 {
   background-color: #026b9c;
   width: 100vw;
   height: 5px;
-  margin-top: 35px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 75vw;
+  margin: auto;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-weight: 550;
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto Condensed";
+  font-size: 1em;
+  color: black;
+}
+
+.nav li a:hover {
+  color: #026b9c;
+}
+
+.strip2 {
+  background: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cacaca), to(white));
+  background: linear-gradient(180deg, #cacaca 0%, white 100%);
+  width: 100vw;
+  height: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
