@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Old London";
+    src: local("Old London"), url("/fonts/OldLondon.ttf") format("truetype");
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: 50vh;
+
+    text-align: center;
+    color: white;
+    font-family: "Old London";
+    font-size: 5em;
+
+}
