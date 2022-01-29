@@ -119,10 +119,12 @@ body {
   text-decoration: none;
   font-weight: 550;
   text-align: center;
-  margin: auto;
+  padding: 10px;
   font-family: "Roboto Condensed";
   font-size: 1em;
   color: black;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
 }
 
 .nav li a:hover {
@@ -138,4 +140,4 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=header_style.css.map */

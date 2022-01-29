@@ -119,12 +119,14 @@ body {
         font-weight: 550;
 
         text-align: center;
-        margin: auto;
+        padding: 10px;
 
         font-family: "Roboto Condensed";
         font-size: 1em;
         
         color: black;
+
+        transition: color 0.25s;
     }
 
     li a:hover {
