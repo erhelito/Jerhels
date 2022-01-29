@@ -1,10 +1,11 @@
 $blue_lemonde : #026b9c;
 $gold_lemonde : #ffc700;
 $dark_gold_lemonde : #e9b600;
+$footer_color : #2a303b;
 
 @font-face {
     font-family: "Old London";
-    src: local("Old London"), url("fonts/OldLondon.ttf") format("truetype");
+    src: local("Old London"), url("../fonts/OldLondon.ttf") format("truetype");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
@@ -14,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
 
+    overflow-x: hidden;
 }
 
 .high-head {
@@ -71,7 +73,7 @@ body {
             grid-row: 2/2;
         }
 
-        .log-in:hover {
+        .log-in:hover a{
             text-decoration: underline;
         }
 
@@ -142,5 +144,53 @@ body {
     height: 5px;
 
     margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+.foot {
+    background-color: $footer_color;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    h2 {
+        margin-top: 35px;
+
+        font-family: "Roboto Condensed";
+        font-size: 1em;
+        font-weight: 400;
+
+        color: white;
+    }
+
+    .foot-list {
+
+        li {
+            color: white;
+            font-size: 0.75em;
+            font-weight: 500;
+        }
+
+        li a {
+            text-decoration: none;
+
+            text-align: center;
+            font-family: "Roboto";
+            
+            color: white;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .instagrams {
+        list-style: none;
+
+        i {
+            font-size: 2em;
+        }
+    }
 }

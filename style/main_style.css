@@ -2,12 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @font-face {
   font-family: "Old London";
-  src: local("Old London"), url("fonts/OldLondon.ttf") format("truetype");
+  src: local("Old London"), url("../fonts/OldLondon.ttf") format("truetype");
 }
 
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .high-head {
@@ -69,7 +70,7 @@ body {
   grid-row: 2/2;
 }
 
-.high-head .button-div .log-in:hover {
+.high-head .button-div .log-in:hover a {
   text-decoration: underline;
 }
 
@@ -138,6 +139,52 @@ body {
   width: 100vw;
   height: 5px;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
-/*# sourceMappingURL=header_style.css.map */
+
+.foot {
+  background-color: #2a303b;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.foot h2 {
+  margin-top: 35px;
+  font-family: "Roboto Condensed";
+  font-size: 1em;
+  font-weight: 400;
+  color: white;
+}
+
+.foot .foot-list li {
+  color: white;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.foot .foot-list li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto";
+  color: white;
+}
+
+.foot .foot-list li a:hover {
+  text-decoration: underline;
+}
+
+.foot .instagrams {
+  list-style: none;
+}
+
+.foot .instagrams i {
+  font-size: 2em;
+}
+/*# sourceMappingURL=main_style.css.map */

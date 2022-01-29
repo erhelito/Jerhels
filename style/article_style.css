@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container {
+  padding-top: 20px;
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  height: auto;
+  -ms-grid-columns: 15vw 70vw 15vw;
+      grid-template-columns: 15vw 70vw 15vw;
+  background-color: #f5f6f8;
+}
+
+.container .article {
+  background-color: white;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container .article h1 {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 3em;
+  font-weight: 450;
+  color: #2a303b;
+}
+
+.container .article h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  width: 80%;
+  color: #2a303b;
+}
+
+.container .article h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #2a303b;
+}
+
+.container .article p {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.55;
+  color: #383f4e;
+}
+
+.container .article i {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  line-height: 2.5;
+  font-style: normal;
+  color: #717b8e;
+}
+
+.container .article .little-strip {
+  background-color: #a9b0b9;
+  margin-top: 20px;
+  width: 40px;
+  height: 1px;
+}
+
+.container .article .image-div {
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .article .image-div .image {
+  width: 50%;
+  height: auto;
+}
+
+.container .article .image-div .caption {
+  margin-top: 10px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.container .article .sources li {
+  font-size: 1.1em;
+  line-height: 1.55;
+  color: #383f4e;
+}
+
+.container .article .sources li a {
+  text-decoration: none;
+  font-family: "Source Serif 4", sans-serif;
+  color: #383f4e;
+}
+
+.container .article .sources li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=article_style.css.map */

@@ -1,0 +1,127 @@
+$text_color : #2a303b;
+$paragraph_color : #383f4e;
+$background_color : #f5f6f8;
+$caption_color : #717b8e;
+$light_caption_color : #a9b0b9;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+
+    width: 100vw;
+    height: auto;
+
+    grid-template-columns: 15vw 70vw 15vw;
+
+    background-color: $background_color;
+
+    .article {
+        background-color: white;
+        grid-column: 2/3;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+        h1 {
+            font-family: "Source Serif 4", sans-serif;
+            font-size: 3em;
+            font-weight: 450;
+
+            color: $text_color;
+        }
+
+        h3 {
+            font-family: "Poppins", sans-serif;
+            font-size: 1em;
+            font-weight: 600;
+
+            width: 80%;
+
+            color: $text_color;
+        }
+
+        h2 {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.3em;
+            font-weight: 700;
+
+            color: $text_color;
+        }
+
+        p {
+            font-family: "Source Serif 4", sans-serif;
+            font-size: 1.1em;
+            line-height: 1.55;
+
+            color: $paragraph_color;
+        }
+
+        i {
+            font-family: "Poppins", sans-serif;
+            font-size: 0.9em;
+            line-height: 2.5;
+
+            font-style: normal;
+
+            color: $caption_color;
+        }
+
+        .little-strip {
+            background-color: $light_caption_color;
+
+            margin-top: 20px;
+
+            width: 40px;
+            height: 1px;
+        }
+
+        .image-div {
+            margin: 50px auto;
+            
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            .image {
+                width: 50%;
+                height: auto;
+            }
+
+            .caption {
+                margin-top: 10px;
+                width: 50%;
+
+                line-height: 1.5;
+            }
+        }
+
+        .sources {
+            li {
+                font-size: 1.1em;
+                line-height: 1.55;
+        
+                color: $paragraph_color;
+            }
+        
+            li a {
+                text-decoration: none;
+
+                font-family: "Source Serif 4", sans-serif;
+                
+                color: $paragraph_color;
+            }
+        
+            li a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
