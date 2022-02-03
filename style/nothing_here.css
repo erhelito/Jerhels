@@ -27,6 +27,11 @@ body {
           align-items: center;
 }
 
+.container iframe {
+  margin: 20px;
+  border-radius: 30px;
+}
+
 .container i {
   font-size: 10em;
   padding: 30px;

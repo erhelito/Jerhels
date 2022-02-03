@@ -21,6 +21,11 @@ body {
     justify-content: space-around;
     align-items: center;
 
+    iframe {
+        margin: 20px;
+        border-radius: 30px;
+    }
+
     i {
         font-size: 10em;
         padding: 30px;
