@@ -153,10 +153,10 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-top: 35px;
 }
 
 .foot h2 {
-  margin-top: 35px;
   font-family: "Roboto Condensed";
   font-size: 1em;
   font-weight: 400;

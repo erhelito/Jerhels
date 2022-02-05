@@ -154,9 +154,9 @@ body {
     flex-direction: row;
     justify-content: space-around;
 
-    h2 {
-        margin-top: 35px;
+    padding-top: 35px;
 
+    h2 {
         font-family: "Roboto Condensed";
         font-size: 1em;
         font-weight: 400;
@@ -192,5 +192,9 @@ body {
         i {
             font-size: 2em;
         }
+    }
+
+    .validate {
+        
     }
 }
