@@ -125,3 +125,9 @@ $light_caption_color : #a9b0b9;
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        grid-template-columns: 0vw 100vw 0vw;
+    }
+}
