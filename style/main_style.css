@@ -5,10 +5,13 @@
   src: local("Old London"), url("../fonts/OldLondon.ttf") format("truetype");
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .high-head {
