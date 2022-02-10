@@ -18,11 +18,11 @@ body {
   padding-top: 20px;
   display: -ms-grid;
   display: grid;
-  width: 99vw;
+  width: 90vw;
   height: auto;
   margin: auto;
-  -ms-grid-columns: (33vw)[3];
-      grid-template-columns: repeat(3, 33vw);
+  -ms-grid-columns: (30vw)[3];
+      grid-template-columns: repeat(3, 30vw);
 }
 
 .high-head .logo {
@@ -192,6 +192,12 @@ body {
   font-size: 2em;
 }
 
+/* ------
+LOGO AND BUTTONS
+------ */
+/* ------
+NAVBAR
+------ */
 @media screen and (max-width: 600px) {
   .nav {
     width: 80vw;

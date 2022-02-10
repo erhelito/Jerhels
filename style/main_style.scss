@@ -22,12 +22,12 @@ body {
 .high-head {
     padding-top: 20px;
     display: grid;
-    width: 99vw;
+    width: 90vw;
     height: auto;
 
     margin: auto;
 
-    grid-template-columns: repeat(3, 33vw);
+    grid-template-columns: repeat(3, 30vw);
 
     .logo {
         margin-top: 10px;
@@ -196,6 +196,11 @@ body {
         }
     }
 }
+
+/* ------
+NAVBAR
+------ */
+
 
 @media screen and (max-width: 600px) {
     .nav {
